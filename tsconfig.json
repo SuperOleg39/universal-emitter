@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "lib": [
+            "es5",
+            "es6",
+            "es7",
+            "dom"
+        ],
+        "target": "es5",
+        "module": "esnext",
+        "outDir": "compiled",
+        "declaration": true,
+        "declarationDir": "dist",
+        "sourceMap": true
+    }
+}

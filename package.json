@@ -1,0 +1,20 @@
+{
+  "name": "universal-emitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/UniversalEmitter.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf compiled dist && tsc && webpack && rimraf compiled"
+  },
+  "author": "Oleg Drapeza",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "2.6.2",
+    "ts-loader": "4.1.0",
+    "typescript": "2.7.2",
+    "webpack": "4.2.0",
+    "webpack-cli": "2.0.12"
+  },
+  "dependencies": {}
+}
