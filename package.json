@@ -1,13 +1,18 @@
 {
   "name": "universal-emitter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/UniversalEmitter.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf compiled dist && tsc && webpack && rimraf compiled"
+    "build": "rimraf compiled dist && tsc && webpack && rimraf compiled",
+    "prepublish": "npm run build"
   },
   "author": "Oleg Drapeza",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperOleg39/universal-emitter"
+  },
   "license": "ISC",
   "devDependencies": {
     "rimraf": "2.6.2",
